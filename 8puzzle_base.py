@@ -2,7 +2,6 @@ from queue import Queue
 from graphviz import Digraph
 import os
 import copy
-
 class Node:
     def __init__(self, state, parent, action, depth):
         self.state = state
